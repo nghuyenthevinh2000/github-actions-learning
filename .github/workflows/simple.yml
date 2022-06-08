@@ -21,6 +21,8 @@ jobs:
         shell: python
   run-windows-commands:
     runs-on: windows-latest
+    needs: # needs define the action that this actions relies on
+      - run-shell-command
     steps:
       - name:  Directtory powershell
         run: Get-Location
