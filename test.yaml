@@ -1,0 +1,20 @@
+name: Ali
+age: 28
+address: damn
+active: true
+key:
+  key: value
+  key2: 33
+  key3:
+    fuck: man
+array:
+  - item1
+  - item2
+  - key: null
+    fuck: vinh
+longText: > 
+  hello yaml I am vinh
+  and I am here to learn how to do this shit
+multipleLinesText: |
+  adf;lkja;lsdfjasdfj
+  ;asdfj;asjf;ajsdf as;dfljaslf;jsa
